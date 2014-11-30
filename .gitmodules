@@ -31,6 +31,3 @@
 [submodule "external/platform-system-core-lollipop"]
 	path = external/platform-system-core-lollipop
 	url = https://android.googlesource.com/platform/system/core
-[submodule "external/openssl-aosp"]
-	path = external/openssl-aosp
-	url = https://android.googlesource.com/platform/external/openssl
