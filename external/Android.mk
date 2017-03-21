@@ -70,7 +70,8 @@ libsqlite3_android_local_src_files_32 := \
 	android-sqlite/android/OldPhoneNumberUtils.cpp \
 	android-sqlite/android/PhoneticStringUtils.cpp \
 	String16_32.cpp \
-	String8_32.cpp 
+	String8_32.cpp \
+	stpcpy.c
 #	android-sqlite/android/PhoneNumberUtilsTest.cpp \
 #	android-sqlite/android/PhoneticStringUtilsTest.cpp \
 
@@ -79,7 +80,8 @@ libsqlite3_android_local_src_files_64 :=  \
 	android-sqlite_lollipop/android/PhoneNumberUtils.cpp \
 	android-sqlite_lollipop/android/OldPhoneNumberUtils.cpp \
 	String16_64.cpp \
-	String8_64.cpp 
+	String8_64.cpp \
+	stpcpy.c
 
 include $(CLEAR_VARS)
 
